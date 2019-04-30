@@ -37,7 +37,7 @@ class TicTacToeContainer extends Component {
           gameOver={this.state.gameOver}
           catsGame={this.state.catsGame}
         />
-        <SimpleButton onClick={this.restartGame} text="Restart Game" />
+        <button onClick={this.restartGame}>Restart Game</button>
       </div>
     );
   }
